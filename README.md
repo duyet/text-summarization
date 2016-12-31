@@ -38,7 +38,11 @@ print textsum.summarize(text)
 
 2. Request to Webserivce
 
-| GET      	| http://localhost:8000/?q=By day he is an average computer programmer and by night a hacker known as ....  	|
+| GET      	| http://localhost:8000/?q=By%20day%20he%20is%20an%20average.%20computer%20programmer%20and%20by%20night%20a%20hacker%20known%20as  	|
 |----------	|-----------------------------------------------------------------------------------------------------------	|
 | Response 	| ```Morpheus awakens Neo to the real world, a ravaged wasteland where...```                                	|
 
+# TODO 
+
+- [ ] Update Webservice, add POST method instead.
+- [ ] Support vietnamese.
